@@ -9,7 +9,7 @@ using System.Security.Cryptography.X509Certificates;
         {
             int ciclos = 1;
             int randomnum = -1;
-            Console.WriteLine("Introduce un numero del 0 al 1000");
+            Console.WriteLine("Introduce un numero del 1 al 1000");
             int suerte = Convert.ToInt32(Console.ReadLine());
             while (true)
             {
